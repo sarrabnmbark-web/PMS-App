@@ -21,7 +21,6 @@ const app = express();
 
 app.use(cors()); 
 app.use(express.json());
-//app.use('/api/reservations', reservationRoutes);
 
 // --- DÉCLARATION DES ROUTES ICI ---
 app.use('/api/auth', authRoutes);
