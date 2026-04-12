@@ -1,4 +1,5 @@
 const Room = require('../models/Rooms');
+const RoomType = require('../models/Room_Type');
 
 
 //CRUD Room:
