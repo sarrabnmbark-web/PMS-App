@@ -24,7 +24,7 @@ const reservationSchema = new mongoose.Schema({
         default: 'Confirmée'
     },
 
-    total_price: { type: Number },
+    total_price: { type: Number , required : true},
 
     notes: { type: String },
 
