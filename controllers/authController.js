@@ -20,7 +20,7 @@ const registerUser = async (req, res) => {
 
         // Créer l'utilisateur (le mot de passe sera haché automatiquement par le Model)
         const user = await User.create({ name, email, password, role_id });
-
+        //response:
         if (user) {
             res.status(201).json({
                 _id: user.id,
